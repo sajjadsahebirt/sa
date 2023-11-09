@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 20px auto;
+  }
+
+  th, td {
+    padding: 10px;
+    text-align: right;
+  }
+
+  th {
+    background-color: #333;
+    color: white;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  tr:nth-child(odd) {
+    background-color: #ddd;
+  }
+</style>
+</head>
+<body>
+
+<table>
+  <tr>
+    <th>شناسه</th>
+    <th>نام محصول</th>
+    <th>قیمت (تومان)</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>محصول A</td>
+    <td>10,000 تومان</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>محصول B</td>
+    <td>15,500 تومان</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>محصول C</td>
+    <td>20,250 تومان</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>محصول D</td>
+    <td>12,750 تومان</td>
+  </tr>
+</table>
+
+</body>
+</html>
+امیر سجاد خوش صاحبی
